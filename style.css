@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&family=PT+Sans&family=Roboto:ital,wght@1,300;1,400&family=Ubuntu:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color:bisque;
+ 
+}
+
+
+.sidebar{
+    background-color: rgb(204, 193, 193);
+    transition: transform 0.3s ease-in;
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 42px;
+    height: 95%;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90%;
+   
+   
+
+}
+.container
+{
+    display: flex;
+}
+.infocontainer{
+    /* background-color: rgb(101, 5, 65); */
+    height: 58vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    font-size: 16px;
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+}
+.devPic img{
+    width: 381px;
+    height: 58vh;
+  
+}
+.hello{
+font-size: 3em;
+font-family: 'PT Sans', sans-serif;
+}
+.home{
+font-size: 3em;
+font-weight: bold;
+font-family: 'PT Sans', sans-serif;
+}
+.about{
+font-size: 2.5em;
+font-family: 'PT Sans', sans-serif;
+
+}
+.moreabout{margin-top: 23px;
+    font-size: 29px;
+}
+.buttons{
+    margin-top: 3em;
+}
+.btn {
+    margin-top: 0 3px ;
+    padding: 9px 14px;
+    color: white;
+    border-radius: 22px;
+    background-color: dodgerblue;
+    font-size: 2.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 8px 15px;
+    margin: 12px 0;
+
+}
+.btn:hover{
+background-color: white;
+color: dodgerblue;
+}
+.sidebar li a{
+    text-decoration: none;
+    color: black;
+}
+/* contact */
+
+.contactform{
+    padding: 0 34px;
+
+    font-family: 'PT Sans', sans-serif;
+    margin: 10px 88px;
+}
+.contactform h1{
+    font-family: 'PT Sans', sans-serif;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+#emailHelp{
+    font-size: 12px;
+    color:midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+.contactform form div input{
+    padding: 3px 0 0 0;
+    width: 26vw;
+   border-radius: 5px;
+    margin: 6px 0 0 0;
+} 
+#form-check{
+flex-direction: row;
+
+}
+.intro{
+    margin: 10px 88px;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+/* blog */
+.blogcontainer{
+    margin: 10px 88px;
+}
+.blogItem{
+  margin: 11px;  
+  font-family: 'PT Sans', sans-serif;
+}
+ h1 {
+    font-family: 'PT Sans', sans-serif;
+    margin: 23px;
+}
+ p{
+    font-family: 'PT Sans', sans-serif;
+}
+.intro h2{
+    font-family: 'PT Sans', sans-serif;
+
+}
+.intro p{
+    font-family: 'PT Sans', sans-serif;
+    padding: 20px;
+    font-size: 22px;
+}
+.skillContainer{
+padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 900;
+}
+.skill{
+    width: 265px;
+    height: 8px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred{
+    width:265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 150px;
+    margin-top: 8px;
+}
+@media (max-width:1000px){
+.devPic{
+    display: none;
+}
+.buttons{
+    font-size: 7px;
+}
+/* .sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+} */
+.devInfo{
+    font-size: 15px;
+}
+
+.intro{
+    margin:50px  8px;
+}
+.blogcontainer{
+    margin: 50px 8px;
+}
+.contactform{
+    margin: 50px 8px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
